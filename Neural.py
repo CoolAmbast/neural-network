@@ -105,4 +105,4 @@ def test_prediction(index, W1, b1, W2, b2):
     plt.imshow(current_image, interpolation='nearest')
     plt.show()
 
-test_prediction(6, W1, b1, W2, b2)
+test_prediction(6, W1, b1, W2, b2) #make prediction on a sample image from the training set
